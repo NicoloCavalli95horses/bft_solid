@@ -4,10 +4,10 @@ import solid from 'vite-plugin-solid';
 
 export default defineConfig({
   plugins: [
-    // devtools({
-    //   /* features options - all disabled by default */
-    //   autoname: false, // e.g. enable autoname
-    // }),
+     devtools({
+       /* features options - all disabled by default */
+       autoname: true, // e.g. enable autoname
+     }),
     solid(),
   ],
 })
